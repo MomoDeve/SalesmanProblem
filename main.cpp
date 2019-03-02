@@ -129,7 +129,8 @@ public:
 	}
 };
 
-int main() {
+int main() 
+{
 	using Graph = std::vector<std::vector<std::pair<int, int> > >;
 	int N, M, v, u, dist;
 	std::cin >> N >> M;
@@ -144,7 +145,6 @@ int main() {
 	NP.start();
 	auto res = NP.getResult();
 	std::cout << res.first << std::endl << res.second << std::endl;
-	return 0;
 	return 0;
 }
 
